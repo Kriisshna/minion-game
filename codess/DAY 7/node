@@ -1,0 +1,51 @@
+trees:
+    multiple level wise desicion maling is efficient here
+    used in router algorithm
+    searching of a data from millions of data is efficient here
+
+terms:
+nodes-
+leaf-
+internal node-
+
+trie is a data structure which is mainly used for strings . with this as DS , auto fill, auto crt,etc
+
+binary tree:
+    node can have max 2 children 
+
+    types of binary tree:
+        complete binary: all levels should be full except last level, at last level all nodes should be left arranged
+
+        strict binary: all node
+
+        perfect binary: all interior nodes have 2 kids and all leaves have have the same depth
+
+
+    level order:
+        depth first:
+        -pre order: root-left-right
+        -post order: left-right-root
+        -in order: left-root-right
+
+
+
+Binary tree insertion: 
+    if the tree is empty node to be inserted at the root node
+    after this two level order traversal which is root left right whenever there's a first free space insert your node
+    
+
+
+
+
+
+
+
+
+
+                ~~~~~~~~~~~~~
+                |     o     |
+                | (O)  o(O) |
+                |  o  ___ o |
+                |___________|
+                |___________|
+                  ||     ||

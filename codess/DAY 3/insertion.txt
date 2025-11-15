@@ -1,0 +1,4 @@
+insertion 
+    front=rear=
+    when circular queue is full 
+    if rear+1% queue size=front ,then 

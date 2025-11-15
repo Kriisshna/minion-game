@@ -1,0 +1,37 @@
+linked list
+terms
+    node 
+    head 
+    tail
+    head.data
+    head.next
+    n1.data
+    n1.next.data
+    n1.next.next
+
+
+implementation
+    -create the node 
+    -split it into two as data and next
+    -name the first node as head
+    -repeat the above steps and create the next node
+    -establish the link btw the nodes
+
+
+operations
+ insert
+    insertion at last 
+        get the new node as input
+        temp=head
+        while(temp):
+            temp=temp.next
+    insertion at beginning
+        insert node at the beginning (in an existing node)
+            get the new node as input
+            newnode.next=head
+            head =newnode
+
+    insertion a node in btw
+ delete
+ search 
+ update
